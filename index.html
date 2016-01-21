@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DailyUI: 002</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+	<div class="form-content">
+		<div class="cart-item">
+			<div >
+				<div>Adidas Clover Nizza</div>
+				<div>$134.99</div>
+			</div>
+		</div>
+		<div>
+			<form class="cc-form" action="#" method="POST">
+				<label>
+					Card Numberr
+					<input class="form-field" type="number" name="ccnumber" required>
+				</label>
+				
+				<label>
+					MM / YY
+					<input class="form-field" type="date" name="ccexpiration" required>
+				</label>
+
+				<label>
+					CVC Code
+					<input class="form-field" type="number" name="ccsecuritycode" required>
+				</label>
+
+				<input class="confirm" type="submit" name="submit" value="Pay Now">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
