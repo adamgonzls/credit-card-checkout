@@ -111,6 +111,7 @@ body {
 }
 
 .confirm {
+	border: none;
 	padding: 30px;
 	text-decoration: none;
 	color: #EBF7FB;
