@@ -77,8 +77,9 @@ body {
 
 .cc-form {
 	text-align: left;
-	
+	width: 80%;
 	color: #B6B6B6;
+	margin: 0 auto;
 }
 
 .cc-form label {
@@ -96,6 +97,7 @@ body {
 	border-bottom: 2px solid #eee;
 	margin-bottom: 5px;
 	background-color: transparent;
+	width: 80%
 }
 
 .form-field textarea:focus, input:focus {
@@ -105,9 +107,7 @@ body {
 
 .cc-form input {
 	/*border: none;*/
-	
 	width: 100%;
-	
 }
 
 .confirm {
