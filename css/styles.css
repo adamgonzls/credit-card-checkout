@@ -97,7 +97,6 @@ body {
 	border-bottom: 2px solid #eee;
 	margin-bottom: 5px;
 	background-color: transparent;
-	width: 80%
 }
 
 .form-field textarea:focus, input:focus {
