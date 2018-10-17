@@ -23,7 +23,12 @@ html {
 /****************************************
   Defaults
 *****************************************/
-
+h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #868686;
+}
 
 /****************************************
   Helpers
@@ -43,10 +48,17 @@ main {
 	background-size: cover;
 }
 
+::placeholder {
+  color: #000;
+}
+
 .form-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 375px;
   background-color: #FFF;
-  margin: 20px auto;
   border-radius: 20px;
 	text-align: center;
 }
@@ -67,7 +79,6 @@ main {
 
 .cart-item > div {
 	position: absolute;
-	padding: 5px;
 	bottom: 20px;
 	right: 20px;
 }
@@ -98,7 +109,7 @@ main {
 
 .form-field {
 	border: none;
-	border-bottom: 2px solid #eee;
+	border-bottom: 2px solid #E1E1E1;
 	background-color: transparent;
 }
 
@@ -106,6 +117,10 @@ main {
     outline: 0;
 }
 
+.price span {
+  font-size: 22px;
+  font-weight: 600;
+}
 
 .cc-form .confirm {
 	border: none;
