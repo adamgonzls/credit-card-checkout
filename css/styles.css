@@ -20,18 +20,10 @@ html {
     font: inherit;
 }
 
-
 /****************************************
   Defaults
 *****************************************/
 
-body {
-	background-image: radial-gradient(rgba(136, 139, 140, .4), 
-		rgba(136, 139, 140, .6)), 
-		url('../images/wood.jpg');
-	background-size: cover;
-
-}
 
 /****************************************
   Helpers
@@ -42,11 +34,20 @@ body {
   Layout
 *****************************************/
 
+main {
+  position: relative;
+  height: 100vh;
+	background-image: radial-gradient(rgba(136, 139, 140, .4), 
+		rgba(136, 139, 140, .6)), 
+		url('../images/wood.jpg');
+	background-size: cover;
+}
+
 .form-content {
-	width: 375px;
-	background-color: #FFF;
-	margin: 20px auto;
-	border-radius: 20px;
+  width: 375px;
+  background-color: #FFF;
+  margin: 20px auto;
+  border-radius: 20px;
 	text-align: center;
 }
 
