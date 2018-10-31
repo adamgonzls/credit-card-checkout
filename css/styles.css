@@ -68,37 +68,33 @@ main {
 }
 
 .cart-item {
-	min-height: 375px;
-	background-color: #F6F6F6;
-	background-image: url('../images/adidas_full.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
 	position: relative;
-	text-align: right;
-}
-
-.cart-item:after {
-  background: linear-gradient(-135deg, #e7e7e7 16px, transparent 0), linear-gradient(135deg, #e7e7e7 16px, transparent 0);
-  background-position: left bottom;
+  min-height: 375px;
+	background-color: #e7e7e7;
+  background-image: linear-gradient(
+        45deg,
+        rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%
+    ),
+    linear-gradient(
+        -45deg,
+        rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%
+    );
+    /*linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);*/
+  background-position: bottom center, bottom center;
+  background-size: 1.5rem 1.5rem, 1.5rem 1.5rem, 100% 3rem;
   background-repeat: repeat-x;
-  background-size: 32px 32px;
-  content: " ";
-  display: block;
+  margin-bottom: 2rem;
+}
+
+.cart-item img {
+  max-width: 100%;
+}
+
+.cart-item .details {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 32px;
-}
-
-.cart-item > div {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-}
-
-.cart-item > div > div:first-child {
-	color: #868686;
+  text-align: right;
+  bottom: 45px;
+  right: 20px;
 }
 
 .cc-form input {
